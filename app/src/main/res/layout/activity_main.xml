@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.kr_pc.animationapplication.MainActivity">
+
+    <ImageView
+        android:id="@+id/my_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ic_launcher"
+        android:layout_gravity="center_horizontal"
+        android:contentDescription="My Image"
+        />
+
+
+    <Button
+        android:onClick="fadeInAnimation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fade In"
+        android:layout_gravity="center_horizontal"
+        />
+
+    <Button
+        android:onClick="fadeOutAnimation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fade out"
+        android:layout_gravity="center_horizontal"/>
+
+    <Button
+        android:onClick="zoomInAnimation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="zoom in"
+        android:layout_gravity="center_horizontal"/>
+
+    <Button
+        android:onClick="zoomOutAnimation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="zoom out"
+        android:layout_gravity="center_horizontal"/>
+
+    <Button
+        android:onClick="leftToRight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="move LEFT to RIGHt"
+        android:layout_gravity="center_horizontal"/>
+
+    <Button
+        android:onClick="RightToLeft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="move RIGHT TO LEft"
+        android:layout_gravity="center_horizontal"/>
+
+
+
+</LinearLayout>
